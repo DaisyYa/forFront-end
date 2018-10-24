@@ -1,0 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.10.2018, 23:41:19
+    Author     : yakub
+*/
+body {
+    margin: 0;
+}
+
+.header, .main {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 120px 0 100px 0;
+    border-bottom: 1px solid #cecdce;
+}
+
+.header__title {
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #434244;
+    margin: 0;
+}
+
+.header__subtitle {
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: normal;
+    color: #434244;
+    margin: 15px 0 0 0;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts__item {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.contacts__link {
+    color: #9c9da0;
+    text-decoration: none;
+}
+
+.header__contacts {
+    margin-top: 30px;
+}
+
+.main {
+    padding: 40px 0 510px 0;
+    font-size: 0;
+}
+
+.main__left, .main__right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main__left {
+    width: 425px;
+}
+
+.main__right {
+    box-sizing: border-box;
+    width: 825px;
+    padding-left: 65px;
+}
+
+.main__avatar {
+    margin-bottom: 35px;
+}
+
+.personal-info__title {
+    display: inline-block;
+    margin:0;
+    padding: 10px 35px;
+    background-color: #e8c734;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    color: #434244;
+}
+
+.personal-info__content {
+    margin-top: 35px;
+}
+
+.personal-info__text {
+    margin: 0;
+    font-family: Arial;
+    font-size: 18px;
+    color: #434244;
+}
+
+.personal-info__text_bold {
+    font-weight: bold;
+}
+.experience-info{
+    margin-top: 35px;
+}
+.experience-info__date{
+    margin-top: 0px; 
+}
+.experience-info__text{
+    margin: 0;
+    font-family: "Century Gothic";
+    font-style: italic;
+    font-size: 19px;
+    line-height: 31px;
+    color: #9b9b9b;
+}
+
+.experience-title_and_company{
+    margin-bottom: 0px;
+}
+
+.experience-info__title{
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #1a1a1a;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.experience-info__company{
+    padding-inline-start: 0px;
+}
+.company__info{
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #1a1a1a;
+    font-family: "Century Gothic";
+    margin-right: 10px;
+}
+.company__name{
+    padding-right: 10px;
+    border-right: 1px solid #1a1a1a;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.company__link{
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.descriptiont{
+     margin-top: 15px;
+}
+.description__text{
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #818181;
+    font-family: "Century Gothic";
+}
+.description__text_bold{
+    
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #818181;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+.experience-info_2{
+    margin-top: 50px;
+}
+
+.footer {
+    height: 45px;
+    background-color: #e8c734;
+}
