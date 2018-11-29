@@ -1,0 +1,142 @@
+body{
+    margin-top: 170px;
+    font-family: sans-serif;
+}
+.header{
+    max-width: 717px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__title{
+    font-size: 50px;
+    letter-spacing: 6px;
+    line-height: 59px;
+    color: #000000;
+    font-family: 'Dosis';
+    text-align: center;
+    text-transform: uppercase;
+}
+.header__text{
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #798285;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+.music-album{
+    max-width: 1195px;
+    width: 100%;
+    margin: 110px auto;
+    display: flex;
+}
+.music-album__content-left{
+    max-width: 503px;
+    width: 100%;
+    margin: 0 12px 0 0;
+}
+.music-album__year{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: left;
+    color: #646464;
+    margin: 16px auto 12px auto;
+}
+.music-album__name{
+    font-size: 14px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative;
+}
+.music-album__name:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -6px;
+    height: 1px;
+    background-color: #000000;
+}
+.music-album__content-right{
+    max-width: 667px;
+    width: 100%;
+    margin: 0 0 0 auto;
+}
+.music-album__title{
+    font-size: 23px;
+    letter-spacing: 0px;
+    
+    color: #000000;
+    font-family: "Open Sans";
+    text-align: left;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.music-album__text-box{
+    margin: 12px auto 45px auto;
+}
+.music-album__text{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #acacac;
+    font-family: "Open Sans";
+    margin: 0;
+}
+.music-album__button{
+    margin-bottom: -20px;
+    
+}
+.button{
+    height: 57px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+    padding: 23px 81px 23px 82px;
+    background-color: #000000;
+    cursor: pointer;
+}
+.footer{
+    margin-top: -250px;
+    max-width: 2000px;
+    width: 100%;
+    height: 787px;
+    background-image: url('../images/footer_img.png');
+}
+
+@media screen and (max-width: 750px){
+    .header__text{
+        text-align: center;
+    }
+    .music-album{
+        display: inline;
+    }
+    .music-album__content-left{
+        max-width: 651px;
+        width: 100%;
+        margin: 110px auto 0 auto;
+    }
+    .music-album__content-right{
+        max-width: 650px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .music-album__button{
+        margin: 0 30%;
+    }
+    .music-album__content-right{
+        margin: 47px auto;
+    }
+}
