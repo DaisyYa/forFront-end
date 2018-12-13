@@ -1,0 +1,56 @@
+.main_right{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 273px; 
+    margin-left: 49px
+}
+.author_image{
+    margin: 25px 0px 0 0;
+}
+
+.about__author{
+    font-weight: 300;
+    margin: 24px 0 12px -2.4px; 
+    font-size: 23px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+.about-author__content{
+    margin-left: -3px; 
+    font-size: 12px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+.top_posts{
+    margin: 29px 0 30px -2px;
+}
+
+.author_posts{
+    margin: 0;
+    padding-left: 17px;
+}
+
+.li_item{
+    color: #b4ad9e;
+    content: "•";
+}
+.post__link{
+    margin-left: 11px;
+    font-size: 16px;
+    color: #626262;
+    font-family: "Arial";
+}
+.comments{
+    margin: 10px 0 25px 11px;
+}
+.comment__link{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #b4ad9e;
+    font-family: "Arial";
+}

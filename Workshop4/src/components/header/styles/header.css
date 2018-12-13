@@ -1,0 +1,52 @@
+.header{
+    position: relative;
+    max-width: 1064px;
+    width: 100%;
+    margin: 70px 70px 70px 70px
+}
+
+.title__link{
+    position: absolute;
+}
+
+.header__inf-pg{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.header__lifestyle{
+    margin: 0 115px 0 360px;
+    list-style: none;
+    display: inline-block;
+}
+
+.header__photo{
+    margin-right: 95px;
+    list-style: none;
+    display: inline-block;
+}
+.header__music{
+    margin-right: 90px;
+    list-style: none;
+    display: inline-block;
+}
+
+.header__travel{
+    list-style: none;
+    display: inline-block;
+}
+
+.item__link{
+    color: #626262;
+    text-decoration: none;
+}
+.main_top{
+    margin: 75px 60px 64px 77px;   
+}
